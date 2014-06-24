@@ -23,7 +23,7 @@
     if (self) {
         self.tabBarItem.title = @"Hypnosis";
         UIImage *image = [UIImage imageNamed:@"Hypno.png"];
-        //self.tabBarItem.image = image;
+        self.tabBarItem.image = image;
     }
     return self;
 }

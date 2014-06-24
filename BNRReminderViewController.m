@@ -31,8 +31,8 @@
     self =[super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.tabBarItem.title = @"Reminder";
-        UIImage *image = [UIImage imageNamed:@""];
-        //self.tabBarItem.image = image;
+        UIImage *image = [UIImage imageNamed:@"Time.png"];
+        self.tabBarItem.image = image;
     }
     return self;
 }
